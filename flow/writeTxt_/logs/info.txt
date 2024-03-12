@@ -1,234 +1,68 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-254
+264
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
 **** PIPEERROR IN 202403071948022521.pdf --> 475
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403111603186521.pdf missing_cmaps: dvotyogesh, sakalmarathinormal
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-  exec_task: pdftable_finder 
-	==Total:3 Errors=3 TableEmptyBodyCellError=3
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111603186521.pdf: >शासन निर्णय क्रमांक< >वैखप्र-२०२३/(१७/२३)/टीएनटी-५<
-	elapsed_time:202403111603186521.pdf: 0.000102
-  exec_task: doc_translator_hf 
-    Paras: #39 Sentences: #13
-	[0]  #words: 66 #sentences: 13
-	After generate: 2 MB
-	[0]  #words: 260 #sentences: 49
-	After generate: 10 MB
-	[1]  #words: 264 #sentences: 19
-	After generate: 10 MB
-	[2]  #words: 74 #sentences: 2
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111623074621.pdf missing_cmaps: dvotyogesh, mangalbold, sakalmarathinormal
-  exec_task: word_recognizer 
-	Replaced 2:0 >(mangalbold-cid:148)(mangalbold-cid:464)(mangalbold-cid:154)(mangalbold-cid:871)(mangalbold-cid:158)(mangalbold-cid:231)(mangalbold-cid:138)-(mangalbold-cid:92)<  >परेाशिष्ट-अ<
-  exec_task: pdftable_finder 
-	==Total:586 Errors=586 TableEmptyBodyCellError=586
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111623074621.pdf: >शासन निर्णय क्रमांक< >राछासे-२०२३/प्र.क्र.२१९/क्रीयुसे-३<
-	elapsed_time:202403111623074621.pdf: 0.000082
-  exec_task: doc_translator_hf 
-    Paras: #43 Sentences: #0
-	[0]  #words: 258 #sentences: 50
-	After generate: 10 MB
-	[1]  #words: 162 #sentences: 13
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111719334221.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-	Tesseract on page: 3
-	Tesseract on page: 4
-	Tesseract on page: 5
-  exec_task: pdftable_finder 
-	==Total:20 Errors=20 TableEmptyBodyCellError=20
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111719334221.pdf: >शासन निर्णय क्रमांक< >पूरक-२०२३/प्र.क्र.५१/एसडी-६<
-	elapsed_time:202403111719334221.pdf: 0.000082
-  exec_task: doc_translator_hf 
-    Paras: #99 Sentences: #35
-	[0]  #words: 123 #sentences: 35
-	After generate: 10 MB
-	[0]  #words: 258 #sentences: 73
-	After generate: 10 MB
-	[1]  #words: 257 #sentences: 33
-	After generate: 10 MB
-	[2]  #words: 269 #sentences: 22
-	After generate: 10 MB
-	[3]  #words: 262 #sentences: 13
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111723431321.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-  exec_task: pdftable_finder 
-	==Total:6 Errors=6 TableEmptyBodyCellError=6
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111723431321.pdf: >शासन निर्णय क्रमांक< >पूरक-२०२३/प्र.क्र.१९२/एसडी-६<
-	elapsed_time:202403111723431321.pdf: 0.000098
-  exec_task: doc_translator_hf 
-    Paras: #40 Sentences: #9
-	[0]  #words: 43 #sentences: 9
-	After generate: 10 MB
-	[0]  #words: 259 #sentences: 48
-	After generate: 10 MB
-	[1]  #words: 135 #sentences: 11
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111727374021.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
+	202403121601251021.pdf missing_cmaps: dvotyogesh
   exec_task: word_recognizer 
   exec_task: pdftable_finder 
 	==Total:0 Errors=0 
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403111727374021.pdf: >शासन निर्णय क्रमांक< >माशास्थ ३३२२/प्र.क्र.४८६/२२/एसएम-१<
-	elapsed_time:202403111727374021.pdf: 0.000079
-  exec_task: doc_translator_hf 
-    Paras: #39 Sentences: #0
-	[0]  #words: 270 #sentences: 38
-	After generate: 10 MB
-	[1]  #words: 48 #sentences: 4
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111729584721.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111729584721.pdf: >शासन निर्णय क्रमांक< >माशास्थ ३३२४/प्र.क्र.४१६/२४/एसएम-१<
-	elapsed_time:202403111729584721.pdf: 0.000117
+	**FirstPage: 13: इगव्र्ह-१५२१/प्र.क्र.१३/संगणक ==शासन शुद्धीपत्रक क्रमांक:इगव्र्ह-१५२१/प्र.क्र.१३/संगणक
+	extract_order_number:202403121601251021.pdf: >शासन शुद्धीपत्रक क्रमांक< >इगव्र्ह-१५२१/प्र.क्र.१३/संगणक<
+	elapsed_time:202403121601251021.pdf: 0.000947
   exec_task: doc_translator_hf 
     Paras: #37 Sentences: #0
-	[0]  #words: 269 #sentences: 41
-	After generate: 10 MB
-	[1]  #words: 54 #sentences: 4
-	After generate: 10 MB
+	[0]  #words: 254 #sentences: 40
+	After generate: 3 MB
   exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403111732402421.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
+	202403121608518721.pdf missing_cmaps: dvotyogesh
   exec_task: word_recognizer 
   exec_task: pdftable_finder 
-	==Total:0 Errors=0 
+	==Total:46 Errors=46 TableEmptyBodyCellError=46
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403111732402421.pdf: >शासन निर्णय क्रमांक< >माशास्थ ३३२३/प्र.क्र.४०६/२३/एसएम-१<
-	elapsed_time:202403111732402421.pdf: 0.000094
+	extract_order_number:202403121608518721.pdf: >शासन निर्णय क्रमांक< >अनुवि-४९२३/(५०/२३)/अर्थसंकल्प<
+	elapsed_time:202403121608518721.pdf: 0.000099
   exec_task: doc_translator_hf 
-    Paras: #39 Sentences: #0
-	[0]  #words: 264 #sentences: 39
-	After generate: 10 MB
-	[1]  #words: 58 #sentences: 4
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111734414321.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111734414321.pdf: >शासन निर्णय क्रमांक< >प्राशाह-३१२४/प्र.क्र.३०५/२४/एसएम-१<
-	elapsed_time:202403111734414321.pdf: 0.000074
-  exec_task: doc_translator_hf 
-    Paras: #39 Sentences: #0
-	[0]  #words: 263 #sentences: 35
-	After generate: 10 MB
-	[1]  #words: 73 #sentences: 6
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111737124221.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111737124221.pdf: >शासन निर्णय क्रमांक< >माशास्थ ३३२१/प्र.क्र.४५४/२१/एसएम-१<
-	elapsed_time:202403111737124221.pdf: 0.000082
-  exec_task: doc_translator_hf 
-    Paras: #34 Sentences: #0
-	[0]  #words: 260 #sentences: 36
-	After generate: 10 MB
-	[1]  #words: 58 #sentences: 3
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111742162321.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:23 Errors=23 TableEmptyBodyCellError=23
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111742162321.pdf: >शासन निर्णय क्रमांक< >अनुवि-४९२३/(५०/२३)/अर्थसंकल्प<
-	elapsed_time:202403111742162321.pdf: 0.000087
-  exec_task: doc_translator_hf 
-    Paras: #242 Sentences: #27
-	[0]  #words: 152 #sentences: 17
-	After generate: 10 MB
-	[0]  #words: 257 #sentences: 90
-	After generate: 10 MB
-	[1]  #words: 260 #sentences: 57
-	After generate: 10 MB
-	[2]  #words: 259 #sentences: 51
-	After generate: 10 MB
-	[3]  #words: 267 #sentences: 40
-	After generate: 10 MB
+    Paras: #244 Sentences: #150
+	[0]  #words: 261 #sentences: 54
+	After generate: 3 MB
+	[1]  #words: 265 #sentences: 16
+	After generate: 3 MB
+	[2]  #words: 271 #sentences: 12
+	After generate: 3 MB
+	[3]  #words: 143 #sentences: 4
+	After generate: 3 MB
+	[0]  #words: 257 #sentences: 88
+	After generate: 3 MB
+	[1]  #words: 259 #sentences: 59
+	After generate: 3 MB
+	[2]  #words: 260 #sentences: 53
+	After generate: 3 MB
+	[3]  #words: 265 #sentences: 42
+	After generate: 3 MB
 	[4]  #words: 264 #sentences: 26
-	After generate: 10 MB
+	After generate: 3 MB
 	[5]  #words: 260 #sentences: 24
-	After generate: 10 MB
-	[6]  #words: 270 #sentences: 24
-	After generate: 10 MB
-	[7]  #words: 261 #sentences: 21
-	After generate: 10 MB
-	[8]  #words: 148 #sentences: 12
-	After generate: 10 MB
+	After generate: 3 MB
+	[6]  #words: 257 #sentences: 23
+	After generate: 3 MB
+	[7]  #words: 259 #sentences: 21
+	After generate: 3 MB
+	[8]  #words: 145 #sentences: 9
+	After generate: 3 MB
   exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403111742341021.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
+	202403121623388221.pdf missing_cmaps: sakalmarathinormal, dvotyogesh
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
@@ -237,282 +71,162 @@ src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403111742341021.pdf: >शासन निर्णय क्रमांक< >माशाह-३१२४/प्र.क्र.३०३/२४/एसएम-१<
-	elapsed_time:202403111742341021.pdf: 0.000102
+	extract_order_number:202403121623388221.pdf: >शासन निर्णय क्रमांक< >क्रीडासू-१४२४/प्र.क्र. ६७/क्रीयुसे-१<
+	elapsed_time:202403121623388221.pdf: 0.000111
   exec_task: doc_translator_hf 
-    Paras: #45 Sentences: #0
-	[0]  #words: 268 #sentences: 41
-	After generate: 10 MB
-	[1]  #words: 181 #sentences: 12
-	After generate: 10 MB
+    Paras: #31 Sentences: #0
+	[0]  #words: 262 #sentences: 46
+	After generate: 3 MB
+	[1]  #words: 262 #sentences: 12
+	After generate: 3 MB
   exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403111749388321.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
+	202403121702311421.pdf missing_cmaps: sakalmarathinormal, dvotyogesh
   exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
   exec_task: pdftable_finder 
-	==Total:0 Errors=0 
+	==Total:161 Errors=161 TableEmptyBodyCellError=161
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403111749388321.pdf: >शासन निर्णय क्रमांक< >प्राशास्थ ३३२३/प्र.क्र.५१०/२३/एसएम-१<
-	elapsed_time:202403111749388321.pdf: 0.000098
+	extract_order_number:202403121702311421.pdf: >शासन निर्णय क्रमांक< >संकिर्ण-३०२४/प्र.क्र.२३/क्रीयुसे-१<
+	elapsed_time:202403121702311421.pdf: 0.000076
   exec_task: doc_translator_hf 
-    Paras: #37 Sentences: #0
-	[0]  #words: 259 #sentences: 38
-	After generate: 10 MB
-	[1]  #words: 123 #sentences: 6
-	After generate: 10 MB
+    Paras: #65 Sentences: #93
+	[0]  #words: 92 #sentences: 58
+	After generate: 3 MB
+	[0]  #words: 259 #sentences: 52
+	After generate: 4 MB
+	[1]  #words: 268 #sentences: 25
+	After generate: 4 MB
+	[2]  #words: 54 #sentences: 3
+	After generate: 4 MB
   exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403111752538021.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
+	202403121735272121.pdf missing_cmaps: sakalmarathinormal, dvotyogesh
   exec_task: word_recognizer 
 	Tesseract on page: 0
 	Tesseract on page: 1
+	Tesseract on page: 2
   exec_task: pdftable_finder 
 	==Total:0 Errors=0 
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403111752538021.pdf: >शासन निर्णय क्रमांक< >प्राशास्थ ३३२४/प्र.क्र.४११/२४/एसएम-१<
-	elapsed_time:202403111752538021.pdf: 0.000101
+	extract_order_number:202403121735272121.pdf: >शासन निर्णय क्रमांक< >राक्रीधो-३६२२/प्र.क्र.५९-भाग-१/क्रीयुसे-२<
+	elapsed_time:202403121735272121.pdf: 0.000110
   exec_task: doc_translator_hf 
-    Paras: #44 Sentences: #0
-	[0]  #words: 267 #sentences: 48
-	After generate: 10 MB
-	[1]  #words: 134 #sentences: 9
-	After generate: 10 MB
+    Paras: #76 Sentences: #0
+	[0]  #words: 259 #sentences: 66
+	After generate: 13 MB
+	[1]  #words: 262 #sentences: 25
+	After generate: 13 MB
+	[2]  #words: 289 #sentences: 18
+	After generate: 13 MB
   exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403111757015121.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
+	202403121745156021.pdf missing_cmaps: sakalmarathinormal, dvotyogesh
   exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
   exec_task: pdftable_finder 
 	==Total:0 Errors=0 
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403111757015121.pdf: >शासन निर्णय क्रमांक< >प्राशास्थ ३३२१/प्र.क्र.४९४/२१/एसएम-१<
-	elapsed_time:202403111757015121.pdf: 0.000102
+	extract_order_number:202403121745156021.pdf: >शासन निर्णय क्रमांक< >बृमपा-२०२३/प्र.क्र.१०४/एसएम-४<
+	elapsed_time:202403121745156021.pdf: 0.000072
   exec_task: doc_translator_hf 
-    Paras: #42 Sentences: #0
-	[0]  #words: 260 #sentences: 47
-	After generate: 10 MB
-	[1]  #words: 114 #sentences: 7
-	After generate: 10 MB
+    Paras: #69 Sentences: #0
+	[0]  #words: 261 #sentences: 53
+	After generate: 13 MB
+	[1]  #words: 261 #sentences: 24
+	After generate: 13 MB
+	[2]  #words: 109 #sentences: 9
+	After generate: 13 MB
   exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403111759521821.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
+	202403121749292021.pdf missing_cmaps: sakalmarathinormal, dvotyogesh
   exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
   exec_task: pdftable_finder 
 	==Total:0 Errors=0 
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403111759521821.pdf: >शासन निर्णय क्रमांक< >प्राशास्थ २२२४/प्र.क्र.४१९/२४/एसएम-१<
-	elapsed_time:202403111759521821.pdf: 0.000097
+	extract_order_number:202403121749292021.pdf: >शासन ज्ञापन क्रमांक< >सहाय्य-२०२३/प्र.क्र.१०१/टीएनटी-६<
+	elapsed_time:202403121749292021.pdf: 0.000072
+  exec_task: doc_translator_hf 
+    Paras: #74 Sentences: #0
+	[0]  #words: 260 #sentences: 61
+	After generate: 13 MB
+	[1]  #words: 263 #sentences: 28
+	After generate: 13 MB
+	[2]  #words: 148 #sentences: 12
+	After generate: 13 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403121753077921.pdf missing_cmaps: sakalmarathinormal, dvotyogesh
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403121753077921.pdf: >शासन निर्णय क्रमांक< >समग्र २०२४/प्र.क्र. ३३/एसडी-१<
+	elapsed_time:202403121753077921.pdf: 0.000078
+  exec_task: doc_translator_hf 
+    Paras: #137 Sentences: #19
+	[0]  #words: 167 #sentences: 19
+	After generate: 13 MB
+	[0]  #words: 262 #sentences: 66
+	After generate: 13 MB
+	[1]  #words: 261 #sentences: 31
+	After generate: 13 MB
+	[2]  #words: 266 #sentences: 25
+	After generate: 13 MB
+	[3]  #words: 257 #sentences: 22
+	After generate: 13 MB
+	[4]  #words: 74 #sentences: 6
+	After generate: 13 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403121845158121.pdf missing_cmaps: sakalmarathinormal, dvotyogesh
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403121845158121.pdf: >शासन निर्णय क्रमांक< >माशास्थ ३३२४/प्र.क्र.४१२/२४/एसएम-१<
+	elapsed_time:202403121845158121.pdf: 0.000076
   exec_task: doc_translator_hf 
     Paras: #40 Sentences: #0
-	[0]  #words: 257 #sentences: 46
-	After generate: 10 MB
-	[1]  #words: 135 #sentences: 7
-	After generate: 10 MB
+	[0]  #words: 262 #sentences: 41
+	After generate: 13 MB
+	[1]  #words: 58 #sentences: 5
+	After generate: 13 MB
   exec_task: text_writer 
   exec_task: pdf_cid_info 
   exec_task: pdf_cid_reader 
-	202403111802283521.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
+	202403121851315121.pdf missing_cmaps: sakalmarathinormal, dvotyogesh
   exec_task: word_recognizer 
   exec_task: pdftable_finder 
 	==Total:0 Errors=0 
   exec_task: line_finder 
   exec_task: para_finder 
   exec_task: extract_order_number 
-	extract_order_number:202403111802283521.pdf: >शासन निर्णय क्रमांक< >माशाह-३१२४/प्र.क्र.३०६/२४/एसएम-१<
-	elapsed_time:202403111802283521.pdf: 0.000075
+	extract_order_number:202403121851315121.pdf: >शासन निर्णय क्रमांक< >संकिर्ण-३०२१/प्र.क्र.५४/क्रीयुसे-१<
+	elapsed_time:202403121851315121.pdf: 0.000073
   exec_task: doc_translator_hf 
-    Paras: #42 Sentences: #0
-	[0]  #words: 263 #sentences: 36
-	After generate: 10 MB
-	[1]  #words: 101 #sentences: 8
-	After generate: 10 MB
+    Paras: #58 Sentences: #0
+	[0]  #words: 267 #sentences: 52
+	After generate: 13 MB
+	[1]  #words: 260 #sentences: 20
+	After generate: 13 MB
+	[2]  #words: 47 #sentences: 3
+	After generate: 13 MB
   exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111803567421.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111803567421.pdf: >शासन निर्णय क्रमांक< >माशाह-३१२३/प्र.क्र.३३६/२३/एसएम-१<
-	elapsed_time:202403111803567421.pdf: 0.000099
-  exec_task: doc_translator_hf 
-    Paras: #42 Sentences: #0
-	[0]  #words: 265 #sentences: 34
-	After generate: 10 MB
-	[1]  #words: 105 #sentences: 8
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111806384721.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403111806384721.pdf: >शासन निर्णय क्रमांक< >न्यायाप्र-१३१८/प्र.क्र.२२३/१८/एसएम-१<
-	elapsed_time:202403111806384721.pdf: 0.000079
-  exec_task: doc_translator_hf 
-    Paras: #45 Sentences: #0
-	[0]  #words: 264 #sentences: 48
-	After generate: 10 MB
-	[1]  #words: 249 #sentences: 18
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111910084521.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:16 Errors=16 TableEmptyBodyCellError=16
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 9: बदली-३१२४/प्र.क्र ५२/प्रशा-२ ==शासन आदेश क्रमांक : बदली-३१२४/प्र.क्र ५२/प्रशा-२
-	extract_order_number:202403111910084521.pdf: >शासन आदेश क्रमांक< >बदली-३१२४/प्र.क्र ५२/प्रशा-२<
-	elapsed_time:202403111910084521.pdf: 0.000589
-  exec_task: doc_translator_hf 
-    Paras: #18 Sentences: #8
-	[0]  #words: 26 #sentences: 5
-	After generate: 10 MB
-	[0]  #words: 147 #sentences: 20
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111913364821.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:12 Errors=12 TableEmptyBodyCellError=12
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 10: बदली-३१२३/प्र.क्र २४२/प्रशा-२ ==शासन आदेश क्रमांक : बदली-३१२३/प्र.क्र २४२/प्रशा-२
-	extract_order_number:202403111913364821.pdf: >शासन आदेश क्रमांक< >बदली-३१२३/प्र.क्र २४२/प्रशा-२<
-	elapsed_time:202403111913364821.pdf: 0.000590
-  exec_task: doc_translator_hf 
-    Paras: #20 Sentences: #9
-	[0]  #words: 19 #sentences: 5
-	After generate: 10 MB
-	[0]  #words: 145 #sentences: 22
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111917072721.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:16 Errors=16 TableEmptyBodyCellError=16
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 10: बदली-३१२४/प्र.क्र ५२/प्रशा-२ ==शासन आदेश क्रमांक : बदली-३१२४/प्र.क्र ५२/प्रशा-२
-	extract_order_number:202403111917072721.pdf: >शासन आदेश क्रमांक< >बदली-३१२४/प्र.क्र ५२/प्रशा-२<
-	elapsed_time:202403111917072721.pdf: 0.000582
-  exec_task: doc_translator_hf 
-    Paras: #20 Sentences: #8
-	[0]  #words: 19 #sentences: 5
-	After generate: 10 MB
-	[0]  #words: 145 #sentences: 22
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111920154521.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:12 Errors=12 TableEmptyBodyCellError=12
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 10: बदली-३१२४/प्र.क्र ५२/प्रशा-२ ==शासन आदेश क्रमांक : बदली-३१२४/प्र.क्र ५२/प्रशा-२
-	extract_order_number:202403111920154521.pdf: >शासन आदेश क्रमांक< >बदली-३१२४/प्र.क्र ५२/प्रशा-२<
-	elapsed_time:202403111920154521.pdf: 0.000598
-  exec_task: doc_translator_hf 
-    Paras: #20 Sentences: #9
-	[0]  #words: 20 #sentences: 5
-	After generate: 10 MB
-	[0]  #words: 145 #sentences: 22
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111923354521.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:12 Errors=12 TableEmptyBodyCellError=12
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 10: बदली-३१२३/प्र.क्र २४२/प्रशा-२ ==शासन आदेश क्रमांक : बदली-३१२३/प्र.क्र २४२/प्रशा-२
-	extract_order_number:202403111923354521.pdf: >शासन आदेश क्रमांक< >बदली-३१२३/प्र.क्र २४२/प्रशा-२<
-	elapsed_time:202403111923354521.pdf: 0.000586
-  exec_task: doc_translator_hf 
-    Paras: #20 Sentences: #9
-	[0]  #words: 22 #sentences: 5
-	After generate: 10 MB
-	[0]  #words: 145 #sentences: 22
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111927235821.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:15 Errors=15 TableEmptyBodyCellError=15
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 10: बदली-३१२४/प्र.क्र ५२/प्रशा-२ ==शासन आदेश क्रमांक : बदली-३१२४/प्र.क्र ५२/प्रशा-२
-	extract_order_number:202403111927235821.pdf: >शासन आदेश क्रमांक< >बदली-३१२४/प्र.क्र ५२/प्रशा-२<
-	elapsed_time:202403111927235821.pdf: 0.000654
-  exec_task: doc_translator_hf 
-    Paras: #20 Sentences: #9
-	[0]  #words: 29 #sentences: 5
-	After generate: 10 MB
-	[0]  #words: 147 #sentences: 22
-	After generate: 10 MB
-  exec_task: text_writer 
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403111930488221.pdf missing_cmaps: mangalbold, sakalmarathinormal, dvotsurekhmr, dvotsurekhmrbold, dvotyogesh, dvotsurekh
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:15 Errors=15 TableEmptyBodyCellError=15
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	**FirstPage: 10: बदली-३१२४/प्र.क्र ५२/प्रशा-२ ==शासन आदेश क्रमांक : बदली-३१२४/प्र.क्र ५२/प्रशा-२
-	extract_order_number:202403111930488221.pdf: >शासन आदेश क्रमांक< >बदली-३१२४/प्र.क्र ५२/प्रशा-२<
-	elapsed_time:202403111930488221.pdf: 0.000579
-  exec_task: doc_translator_hf 
-    Paras: #20 Sentences: #9
-	[0]  #words: 19 #sentences: 5
-	After generate: 10 MB
-	[0]  #words: 145 #sentences: 22
-	After generate: 10 MB
-  exec_task: text_writer 
-#docs: 252 #processed: 26
+#docs: 262 #processed: 11
