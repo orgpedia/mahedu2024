@@ -49,6 +49,17 @@ def main():
     doc_dir = doc_info_path.parent
 
     new_infos = [i for i in dept_infos if i["Unique Code"] not in doc_set]
+    if len(new_infos) != len(set(i["Unique Code"] for i in new_infos)):
+        # removing duplicate infos, happens rarely.
+        unique_infos, duplicate_codes, seen = [], [], set()
+        for info in new_infos:
+            if info['Unique Code'] not in seen:
+                unique_infos.append(info)
+                seen.add(info["Unique Code"])
+            else:
+                duplicate_codes.append(info["Unique Code"])
+        print(f'Duplicates infos found: {",".join(duplicate_codes)}, keeping unique.')
+        new_infos = unique_infos
 
     for info in new_infos:
         doc_path = doc_dir / f"{info['Unique Code']}.pdf"
