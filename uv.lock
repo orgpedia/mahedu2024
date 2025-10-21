@@ -633,7 +633,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "orgpedia-mahfin2024"
+name = "orgpedia-mahedu2024"
 version = "0.0.1"
 source = { editable = "." }
 
